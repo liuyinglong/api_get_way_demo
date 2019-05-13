@@ -1,6 +1,6 @@
 /**
  * 诗词接口请求DEMO
- * 请将AccessKeyId ,AccessKeySecret,ServerAddress 替换成自己的
+ * 请将AccessKeyId ,AccessKeySecret 替换成自己的
  */
 
 
