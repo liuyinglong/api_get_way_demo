@@ -20,6 +20,8 @@ module.exports = class Request {
 
         const body = Object.assign({}, params, data)
 
+
+
         const signQuery = this._apiGetWay.sign({
             method,
             body,

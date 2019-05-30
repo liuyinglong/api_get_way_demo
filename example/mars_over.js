@@ -5,8 +5,8 @@
 
 const Request = require("../tools/Request")
 const request = new Request({
-    AccessKeyId: "5b010b6c45657b2b64ada7a1",
-    AccessKeySecret: "0283f49d819b7679a80cb47353de8671",
+    AccessKeyId: "5ceffbb0abbe632b648316c6",
+    AccessKeySecret: "91df9d44659ae913d7ce6ddaa2f96e5b",
     ServerAddress: "https://account.getlove.cn/apiGetWay/5c889fded32e2a105ab0aaf3"
 })
 

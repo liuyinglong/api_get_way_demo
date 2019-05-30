@@ -7,8 +7,8 @@
 const Request = require("../tools/Request")
 
 const request = new Request({
-    AccessKeyId: "5b010b6c45657b2b64ada7a1",
-    AccessKeySecret: "0283f49d819b7679a80cb47353de8671",
+    AccessKeyId: "5ceffbb0abbe632b648316c6",
+    AccessKeySecret: "91df9d44659ae913d7ce6ddaa2f96e5b",
     ServerAddress: "https://account.getlove.cn/apiGetWay/5b010c7445657b2b64ada7a2"
 })
 
@@ -18,8 +18,11 @@ request.http({
     params: {
         keywords: "李白",
         type: "author",
-        page: "1"
+        size:2,
+        page: 1
     }
 }).then(function (response) {
+    // console.log(response)
+    console.log("------返回值--------")
     console.log(response.data)
 })
